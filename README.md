@@ -1,2 +1,8 @@
 # intern
 专门为在校学生，未来的程序员服务的app，找工作与租房一站式服务。
+
+# 技术点
+编程语言：Java11
+项目管理工具Maven3.6.3
+开发工具：Idea or Eclipse
+项目框架：SpringCloud
