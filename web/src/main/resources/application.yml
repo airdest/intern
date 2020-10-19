@@ -5,12 +5,16 @@ eureka:
     hostname: localhost # 指定该Eureka实例的主机名
   # 配置关闭自我保护，并按需配置Eureka Server清理无效节点的时间间隔
   server:
+
     enable-self-preservation: false
     eviction-interval-timer-in-ms: 4000
   # 通过eureka.client.registerWithEureka:false和fetchRegistry:false，来表明自己是一个eureka server
   client:
+    # 是否注册自己的信息到EurekaServer，默认是true
     registerWithEureka: false
+    # 是否拉取其它服务的信息，默认是true
     fetchRegistry: false
+    # EurekaServer的地址，现在是自己的地址，如果是集群，需要加上其它Server的地址。
     serviceUrl:
       defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
 
@@ -20,4 +24,6 @@ spring:
     username: root
     password: root
     driver-class-name: com.mysql.jdbc.Driver
-
+  application:
+    # 应用名称，会在Eureka中显示
+    name: eureka-server

@@ -11,4 +11,5 @@ import org.springframework.stereotype.Component;
 @Mapper
 @Component
 public interface UserMapper extends tk.mybatis.mapper.common.Mapper<User> {
+
 }

@@ -6,3 +6,5 @@
 项目管理工具：Maven3.6.3<br/>
 开发工具：Idea or Eclipse<br/>
 项目框架：SpringCloud + Eureka<br/>
+插件：Lombok 
+Mybatis + MySQL
