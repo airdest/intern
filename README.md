@@ -9,5 +9,9 @@
 插件：Lombok <br/>
 Mybatis + MySQL<br/>
 
-参考资料：
-https://gitee.com/log4j/pig.git
+# 参考资料：<br/>
+https://gitee.com/log4j/pig.git<br/>
+
+
+# 开发须知：<br/>
+开发新功能请单独开个分支，在单独的分支上写代码，全体讨论后再整合代码<br/>
